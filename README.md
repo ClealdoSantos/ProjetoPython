@@ -1,2 +1,2 @@
-# ProjetoPython
- Exercicios de Linguagem Python para iniciantes
+# Projeto Python
+ Exercicios da Faculdade, em Linguagem Python para iniciantes
