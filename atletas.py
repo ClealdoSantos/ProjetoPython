@@ -2,7 +2,7 @@ from datetime import date
 atual = date.today().year
 nascimento = int(input('Ano de nascimento: '))
 idade = atual - nascimento
-print('O atleta tem {} anos.'.format(idade))
+print('O atleta tem \033[4;36m{}\033[m anos.'.format(idade))
 if idade <= 9:
     print('Classificação: MIRIM')
 elif idade <= 14:
