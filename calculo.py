@@ -27,8 +27,8 @@ while opção != 5:
         n2 = int(input('Digite o SEGUNDO valor: '))
     elif opção == 5:
         print('Finalizando...')
-        print('=\033[31m*\033[m='*10)
     else:
         print('Opção inválida! Tente novamente!')
-        sleep(1)
+    print('=\033[31m*\033[m='*10)
+    sleep(2)
 print('Fim do Programa! Volte sempre!')
