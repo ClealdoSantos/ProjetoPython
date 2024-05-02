@@ -1,9 +1,13 @@
 tot18 = totH = totM20 = 0
 while True:
+    print('-' * 30)
+    print('='* 5, 'CADASTRE UMA PESSOA', '='* 5)
+    print('-'* 30)
     idade = int(input('Idade: '))
     sexo = ' '
     while sexo not in 'MF':
         sexo = str(input('Sexo: [M/F] ')).strip().upper()[0]
+    print('-'* 30)
     if idade <= 18:
         tot18 += 1
     if sexo == 'M':
